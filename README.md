@@ -33,6 +33,13 @@ A straightforward e-commerce application that lets users browse products, add th
 
 ## Screenshots
 
+### Homescreen.js
+
+![IMAGE 2024-07-03 23:34:22](https://github.com/Pappyjedu/rn-assignment6-11029647/assets/148871618/1e33a9b5-c387-4f73-8bd3-568ec9a7709a)
+
+### CartScreen.js
+![IMAGE 2024-07-03 23:34:53](https://github.com/Pappyjedu/rn-assignment6-11029647/assets/148871618/3adfcdc0-a5d6-4d47-aee8-2a4fb40ff1b4)
+
 
 
 

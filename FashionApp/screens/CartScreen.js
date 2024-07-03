@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import Header2 from '../screens/Header2';
 
 const cartItems = [
   { id: '1', name: 'Office Wear', price: '$120' },
@@ -11,6 +12,7 @@ const cartItems = [
 const CartScreen = () => {
   return (
     <View style={styles.container}>
+      <Header2 />
       <FlatList
         data={cartItems}
         renderItem={({ item }) => (
@@ -49,6 +51,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   checkoutButton: {
+    flexDirection: 'row',
     height: 60,
     backgroundColor: 'black',
     marginBottom: 9,

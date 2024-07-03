@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import Header from '../screens/Header';
 
 const products = [
   { id: '1', name: 'Office Wear', price: '$120', image: require('../assets/dress1.png') },
@@ -40,6 +41,7 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
+       <Header />
       <FlatList
         data={products}
         renderItem={renderProduct}

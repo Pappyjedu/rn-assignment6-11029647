@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import CartScreen from './screens/CartScreen';
 
+
 const Stack = createStackNavigator();
 
 export default function App() {

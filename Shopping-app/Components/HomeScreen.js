@@ -1,5 +1,5 @@
-import React from 'eact';
-import { View, Text, Image, Button, FlatList, StyleSheet } from 'eact-native';
+import React from 'react';
+import { View, Text, Image, Button, FlatList, StyleSheet } from 'react-native';
 
 const HomeScreen = ({ navigation, addToCart, products }) => {
   return (

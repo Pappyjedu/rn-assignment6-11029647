@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'eact';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './Components/HomeScreen';
@@ -29,8 +29,12 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={ HomeScreen } />
-        <Stack.Screen name="Cart" component={() => <CartScreen cartItems={cartItems} />} />
+        <Stack.Screen name="Home">
+          {(props) => <HomeScreen {...props} products={products} addToCart={addToCart} />}
+        </Stack.Screen>
+        <Stack.Screen name="Cart">
+          {(props) => <CartScreen {...props} cartItems={cartItems} />}
+        </Stack.Screen>
         <Stack.Screen name="Checkout" component={CheckoutScreen} />
       </Stack.Navigator>
     </NavigationContainer>

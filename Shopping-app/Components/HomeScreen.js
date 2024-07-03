@@ -1,7 +1,7 @@
-import React from 'react';
-import { View, Text, Image, Button, FlatList, StyleSheet } from 'react-native';
+import React from 'eact';
+import { View, Text, Image, Button, FlatList, StyleSheet } from 'eact-native';
 
-const HomeScreen = ({ navigation, addToCart }) => {
+const HomeScreen = ({ navigation, addToCart, products }) => {
   return (
     <View style={styles.container}>
       <FlatList

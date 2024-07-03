@@ -14,7 +14,14 @@ A straightforward e-commerce application that lets users browse products, add th
 
 ## Installation
 1. Clone the repository
-git clone
+git clone https://github.com/Pappyjedu/rn-assignment6-11029647.git
+
+2. Install the dependencies
+   npm install
+
+3. Start the expo server
+   npx expo start
+
 
 
 

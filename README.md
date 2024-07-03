@@ -14,13 +14,24 @@ A straightforward e-commerce application that lets users browse products, add th
 
 ## Installation
 1. Clone the repository
-git clone https://github.com/Pappyjedu/rn-assignment6-11029647.git
+* git clone https://github.com/Pappyjedu/rn-assignment6-11029647.git
 
 2. Install the dependencies
-   npm install
+  * npm install
 
 3. Start the expo server
-   npx expo start
+  * npx expo start
+
+## Project Structure
+* App.js: Sets up navigation between Home and Cart screens.
+* screens/HomeScreen.js: Handles product listing and adding items to the cart.
+* screens/CartScreen.js: Manages and displays items in the cart.
+## Design and Data Storage
+* Navigation: Managed with React Navigation for smooth transitions between screens.
+* State Management: Local state is used along with AsyncStorage to persist cart items.
+* Styling: Applied basic styles to match the provided UI mockup, ensuring a clean and user-friendly interface.
+
+## Screenshots
 
 
 
